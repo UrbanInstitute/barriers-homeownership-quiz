@@ -8,6 +8,7 @@
 // keep track of number of quizes added to page
 var quiz_count = 0;
 
+
 // add jQuery selection method to create
 // quiz structure from question json file
 // "filename" can be path to question json
@@ -72,13 +73,27 @@ function render(quiz_opts) {
     .text(quiz_opts.title)
     .attr('class', 'quiz-title')
     .appendTo($title_slide);
+  $('<img>')
+    .attr('src','images/photos/home.jpg')
+    .css("width","500px")
+    .css("margin","0 auto")
+    // .attr('class', 'quiz-title')
+    .appendTo($title_slide);
 
   var $start_button = $("<div>")
     .attr("class", "quiz-answers")
+    .css("margin-bottom","400px")
     .appendTo($title_slide);
+var $dummy2 = $("<div>")
+  .text("a")
+  .css("color","white")
+  .appendTo($title_slide)
 
 var $indicators = $('<ol>')
     .attr('class', 'progress-circles')
+var $dummy = $("<div>")
+  .text("a")
+  .css("color","white")
 
   $("<button>")
     .attr('class', 'quiz-button btn')
@@ -98,9 +113,11 @@ var $indicators = $('<ol>')
 
     })
     .appendTo($start_button);
-  
+
   $indicators
     .appendTo($quiz);
+  $dummy
+    .appendTo($quiz)
 
   $.each(questions, function(question_index, question) {
     $('<li>')
@@ -159,7 +176,7 @@ var $indicators = $('<ol>')
 
       // default opts for both outcomes
       var opts = {
-        allowOutsideClick : false,
+        allowOutsideClick : true,
         allowEscapeKey : false,
         confirmButtonText: "Next Question",
         html : true,
@@ -205,6 +222,7 @@ var $indicators = $('<ol>')
       ans_btn.on('click', function() {
 
         function next() {
+          $('html,body').delay( 500 ).animate({ scrollTop: 0 }, 'slow');
           // if correct answer is selected,
           // keep track in total
           if (correct) state.correct++;
@@ -269,6 +287,11 @@ var $indicators = $('<ol>')
     .attr("class", "quiz-answers")
     .appendTo($results_slide);
 
+  var $links = $("<div>")
+    .attr('class', 'results-social')
+    .html('<div id = "links-text">To find out more about downpayments and other barriers to homeownership, check out our Barriers to Accessing Housing <a href="https://www.urban.org/research/publication/barriers-accessing-homeownership">report</a> and our <a href="https://www.urban.org/policy-centers/housing-finance-policy-center/projects/access-and-affordability-interactive-map-and-research-3-barriers-homeownership">interactive map</a>.</div>')
+    .appendTo($results_slide);
+
   var $social = $("<div>")
     .attr('class', 'results-social')
     .html('<div id = "social-text">Did you like the quiz? Share your results with your friends, so they can give it a shot!</div>')
@@ -281,6 +304,13 @@ var $indicators = $('<ol>')
   var $facebook_link = $('<a>')
     .html('<span class="social social-facebook follow-fb"></span>')
     .appendTo($social);
+
+  $social.css("margin-bottom","400px")
+
+var $dummy3 = $("<div>")
+  .text("a")
+  .css("color","white")
+  .appendTo($results_slide)
 
   $("<button>")
     .attr('class', 'quiz-button btn')
@@ -311,13 +341,13 @@ function resultsText(state) {
     case (ratio === 1):
       text = "Wow&mdash;perfect score!";
       break;
-    case (ratio > 0.9):
+    case (ratio >= 0.9):
       text = "Awesome job, you got most of them right.";
       break;
-    case (ratio > 0.60):
+    case (ratio >= 0.60):
       text = "Pretty good, we'll say that's a pass.";
       break;
-    case (ratio > 0.5):
+    case (ratio >= 0.5):
       text = "Well, at least you got half of them right&hellip;";
       break;
     case (ratio < 0.5 && ratio !== 0):
