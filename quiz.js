@@ -74,7 +74,7 @@ function render(quiz_opts) {
     .attr('class', 'quiz-title')
     .appendTo($title_slide);
   $('<img>')
-    .attr('src','images/photos/home.jpg')
+    .attr('src','img/photos/home.jpg')
     .css("width","500px")
     .css("margin","0 auto")
     // .attr('class', 'quiz-title')
