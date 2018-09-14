@@ -96,7 +96,7 @@ var $dummy = $("<div>")
   .css("color","white")
 
   $("<button>")
-    .attr('class', 'quiz-button btn')
+    .attr('class', 'start-quiz quiz-button btn')
     .text("Take the quiz!")
     .click(function() {
       $quiz.carousel('next');

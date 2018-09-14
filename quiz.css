@@ -10,7 +10,7 @@ html, body {
   margin: 0 auto;
   text-align: center;
   margin-top: 30px;
-  font-size: 32px;
+  font-size: 18px;
   margin-bottom: 20px;
 }
 
@@ -46,7 +46,11 @@ html, body {
   color: #fff;
 }
 
-
+.start-quiz.quiz-button.btn {
+  background-color: #1696d2;
+  color: #fff;
+  font-weight: bold;
+}
 
 .question-image {
     width: 100%;
@@ -87,9 +91,9 @@ html, body {
 }
 
 .quiz-title {
-  font-size: 60px;
-  font-weight: 300;
-  margin-top: 100px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 150px;
   margin-bottom: 30px;
   margin-top: 160px;
 }
@@ -140,7 +144,7 @@ html, body {
 }
 
 .show{
- display:table !important; 
+ display:table !important;
 }
 
 .progress-circles li{
@@ -166,7 +170,7 @@ html, body {
   width: 32px;
 }
 .follow-tw:hover{
- background-position: 0 -1401px;   
+ background-position: 0 -1401px;
 }
 .follow-fb {
   display: inline-block;
@@ -177,7 +181,7 @@ html, body {
   width: 32px;
 }
 .follow-fb:hover{
- background-position: 0 -1433px;   
+ background-position: 0 -1433px;
 }
 
 
