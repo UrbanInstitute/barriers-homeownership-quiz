@@ -18,6 +18,7 @@
   <title>Mortgage Downpayments Quiz</title>
   <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/urban-header.css">
   <link rel="stylesheet" type="text/css" href="sweet-alert.css">
   <link rel="stylesheet" href="quiz.css">
   <link rel="apple-touch-icon" href="/bootstrap/img/apple-touch-icon.png">
@@ -48,42 +49,30 @@
       <!-- Navigation -->
       <!-- Nav hides at less than 600px -->
     <nav class="navbar navbar-default navbar-fixed-top hidesharenav" role="navigation" id="topNav">
-        <div class="container">
-                <div id="share">
-                    <div id="logo"><a href="http://taxpolicycenter.org" target="_blank"><img id="tpcLogo" src="img/tpc.png" alt="Tax Policy Center" /><img id="smalltpc" src="img/tpc.jpg" alt="Tax Policy Center" /></a>
-                    </div>
-                    <div id="shareMaster">
-                        <div id="shareCircle" class="circle">
-                            <i class="fa fa-share"></i>
+       <div id="header-pinned" class="no-touch">
+           <a target="_blank" href="http://www.urban.org" title="Home" rel="home" class="site-logo"></a>
+            <div class="title">
+                <span class="feature-link"><a href="https://www.urban.org/features" class="title-linkback" alt="Urban Institute logo">Features</a></span>
+            </div>
+            <div class="share-icons">
+                <div class="shareThisP">
+                    <span onclick="toggle_visibility('shareBox');">
+                            <div class="shareThisB"></div>
+                        </span>
+                    <div class="shareThisW" id="shareBox">
+
+                        <div class="addthis_toolbox addthis_default_style " addthis:title="" addthis:url="">
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//apps.urban.org/features/student-loan-repayment" target="_blank" class="addthis_button_facebook at300b" title="Facebook" onclick="toggle_visibility('shareBox');"><span class="at4-icon aticon-facebook" style="background-color: rgb(48, 88, 145);"><span class="at_a11y">Share on facebook</span></span></a>
+
+                            <a href="http://twitter.com/intent/tweet?text=Interactive%20tool%20from%20%40urbaninstitute%3A%20Charting%20Student%20Loan%20Repayment%20http%3A%2F%2Furbn.is%2Floantool" target="_blank" class="addthis_button_twitter at300b" title="Tweet" onclick="toggle_visibility('shareBox');"><span class="at4-icon aticon-twitter" style="background-color: rgb(44, 168, 210);"><span class="at_a11y">Share on twitter</span></span></a>
+
+                            <a href="mailto:%20?Subject=New interactive tool from the Urban Institute &amp;Body=Hi! I thought you'd be interested in this new interactive tool from the Urban Institute: “Charting Student Loan Repayment” http://urbn.is/loantool" target="_blank" class="addthis_button_email at300b" target="_blank" title="Email" onclick="toggle_visibility('shareBox');"><span class="at4-icon aticon-email" style="background-color: rgb(115, 138, 141);"><span class="at_a11y">Share on email</span></span></a>
+                            <div class="atclear"></div>
                         </div>
                     </div>
-                    <div id="socials">
-                        <a href=" http://twitter.com/intent/tweet?text=Know%20the%20presidential%20candidates%27%20tax%20plans%3F%20Test%20your%20knowledge%20with%20a%20new%20quiz%20from%20%40TaxPolicyCenter%20http%3A%2F%2Ftpc.io%2Fprezquiz%20%232016election" target="_blank">
-                            <div id="twitter" class="circle">
-                                <i class="fa fa-twitter"></i>
-                            </div>
-                        </a>
-                        <a href="https://www.facebook.com/sharer/sharer.php?u=http://tpc.io/prezquiz" target="_blank">
-                            <div id="facebook" class="circle">
-                                <i class="fa fa-facebook"></i>
-                            </div>
-                        </a>
-                        <a href="mailto:%20?Subject=New quiz from Tax Policy Center &amp;Body=Hi! I thought you'd be interested in this new interactive from Tax Policy Center: “Presidential Candidate Quiz” http://tpc.io/prezquiz" target="_blank">
-
-
-
-                            <div id="email" class="circle">
-                                <i class="fa fa-envelope"></i>
-                            </div>
-                        </a>
-                    </div>
-
-
-                </div><!-- share -->
-
-
+                </div>
+            </div>
         </div>
-        <!-- /.container -->
     </nav>
 
 <!-- Mobile Nav Only shows when Screen Res less than 600px -->
@@ -147,6 +136,29 @@
   <script src="sweet-alert.min.js"></script>
   <script src="quiz.js"></script>
   <script>
+        function toggle_visibility(id) {
+            var e = document.getElementById(id);
+            if (e.style.display == 'inline-block')
+                e.style.display = 'none';
+            else
+                e.style.display = 'inline-block';
+        }
+
+        // $(function () {
+        //     var shrinkHeader = 200;
+        //     $(window).scroll(function () {
+        //         var scroll = getCurrentScroll();
+        //         if (scroll >= shrinkHeader) {
+        //             $('#header-pinned').addClass('is-visible');
+        //         } else {
+        //             $('#header-pinned').removeClass('is-visible');
+        //         }
+        //     });
+
+        //     function getCurrentScroll() {
+        //         return window.pageYOffset || document.documentElement.scrollTop;
+        //     }
+        // });
 
   $("#credits-button").click(function(){
     var text = "Promotional image: Cover Photo by Volodymyr Kyrylyuk/Shutterstock. Question 1: Photo by Jacob Lund/iStock.com. Question 2: Photo by Steve Debenport/iStock.com. Question 3: PPhoto by Shape Charge/iStock.com. Question 4: Photo by Peeterv/iStock.com. Question 5: Photo by Tempura/iStock.com. Question 6: Photo by Kickstand/iStock.com."
