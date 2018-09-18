@@ -73,8 +73,12 @@ function render(quiz_opts) {
     .text(quiz_opts.title)
     .attr('class', 'quiz-title')
     .appendTo($title_slide);
+  $('<p>')
+    .text("published on September 20, 2018")
+    .attr('class', 'published-on-date')
+    .appendTo($title_slide);
   $('<img>')
-    .attr('src','img/shutterstock_150303686xx.jpg')
+    .attr('src','img/shutterstock_150303686xxxx.jpg')
     .css("width","1100px")
     .css("margin","0 auto")
     // .attr('class', 'quiz-title')
@@ -82,7 +86,7 @@ function render(quiz_opts) {
 
   var $start_button = $("<div>")
     .attr("class", "quiz-answers")
-    .css("margin-bottom","400px")
+    .css("margin-bottom","50px")
     .appendTo($title_slide);
 var $dummy2 = $("<div>")
   .text("a")

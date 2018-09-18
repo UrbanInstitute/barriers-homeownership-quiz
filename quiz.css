@@ -50,6 +50,16 @@ html, body {
   background-color: #1696d2;
   color: #fff;
   font-weight: bold;
+  height: 50px;
+  width: 150px;
+  float: none;
+}
+
+.published-on-date {
+    font-size: 14px;
+    color: #696969;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 .question-image {
@@ -94,7 +104,7 @@ html, body {
   font-size: 30px;
   font-weight: bold;
   margin-top: 150px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   margin-top: 160px;
 }
 
@@ -140,7 +150,7 @@ html, body {
 .progress-circles.show {
   display: block;
   /*margin-bottom: 450px;*/
-  height: 500px;
+  /*height: 500px;*/
 }
 
 .show{
