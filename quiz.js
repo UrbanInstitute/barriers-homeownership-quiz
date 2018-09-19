@@ -83,6 +83,10 @@ function render(quiz_opts) {
     .css("margin","0 auto")
     // .attr('class', 'quiz-title')
     .appendTo($title_slide);
+  $('<p>')
+    .text("Cover Photo by Volodymyr Kyrylyuk/Shutterstock")
+    .attr("class", "image-credit")
+    .appendTo($title_slide);
 
   var $start_button = $("<div>")
     .attr("class", "quiz-answers")
@@ -148,6 +152,10 @@ var $dummy = $("<div>")
       $("<img>")
         .attr("class", "img-responsive")
         .attr("src", question.image)
+        .appendTo($img_div);
+      $('<p>')
+        .text(question.image_credit)
+        .attr("class", "image-credit")
         .appendTo($img_div);
     }
     $("<div>")
