@@ -1,7 +1,7 @@
 url: https://apps.urban.org/features/barriers-homeownership-quiz/
 
 // this is the title of the quiz
-# Downpayments Quiz
+# Down Payments Quiz
 
 1) What was the median down payment made in the US for mortgages used to buy a home in 2017 (median =  ½ of consumers put down more and ½ put down less than this amount)?
   - 20
@@ -41,7 +41,7 @@ url: https://apps.urban.org/features/barriers-homeownership-quiz/
 
   The median home price in the US as of 2017 was $269,680. Check <a target="_blank" href="https://www.urban.org/policy-centers/housing-finance-policy-center/projects/access-and-affordability-interactive-map-and-research-3-barriers-homeownership">this map</a> for the median home price in your state.<img class = "alert-img" src = "img/answer4-01.png"/>
 
-5) Which two numbers represent the smallest downpayment a borrower can make on an FHA loan and a GSE loan?
+5) Which two numbers represent the smallest down payment a borrower can make on an FHA loan and a GSE loan?
 
   -  FHA: 3.5%; GSE: 5%
   -  FHA: 5%; GSE: 3.5%

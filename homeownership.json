@@ -80,7 +80,7 @@
       "image": "img/Quiz_iStock-645124288.jpg",
       "image_credit": "Photo by Tempura/iStock.com",
       "number": 5,
-      "prompt": "Which two numbers represent the smallest downpayment a borrower can make on an FHA loan and a GSE loan?"
+      "prompt": "Which two numbers represent the smallest down payment a borrower can make on an FHA loan and a GSE loan?"
     },
     {
       "answers": [
@@ -97,6 +97,6 @@
       "prompt": "What were the average FICO scores of first-time and repeat homebuyers in 2017?"
     }
   ],
-  "title": "Downpayments Quiz",
+  "title": "Down Payments Quiz",
   "url": "https://apps.urban.org/features/barriers-homeownership-quiz/"
 }
