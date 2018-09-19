@@ -317,7 +317,7 @@ var $dummy = $("<div>")
     .html('<span class="social social-facebook follow-fb"></span>')
     .appendTo($social);
 
-  $social.css("margin-bottom","400px")
+  $social.css("margin-bottom","100px")
 
 var $dummy3 = $("<div>")
   .text("a")

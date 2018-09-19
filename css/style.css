@@ -55,13 +55,13 @@ header {
 }
 
 h2{
- font-family: "calvert", "lato";   
-    
+ font-family: "calvert", "lato";
+
 }
 
 .seventyfive {
-    
- margin-top: 75px;   
+
+ margin-top: 75px;
 }
 
 
@@ -91,7 +91,7 @@ h2{
     margin-right: -4px;
     text-transform: uppercase;
 }
- 
+
 .topnav a {
   text-decoration: none;
   color: #fff;
@@ -99,7 +99,7 @@ h2{
       padding:23px;
   transition: .3s background-color;
 }
- 
+
 .topnav a:hover {
 	background-color: #56B3CE;
 }
@@ -123,7 +123,7 @@ thead {
     text-align: center;
 }
 
-th 
+th
 {
 	background-color:#E0E0E0;
 }
@@ -147,8 +147,8 @@ th
     box-shadow: 5px 1px 11px -7px #d6d6d6;
     -webkit-box-shadow:5px 1px 11px -7px #d6d6d6;
     width: 170px;
- 
-    
+
+
 
 }
 
@@ -172,25 +172,25 @@ th
 }
 
 .hideRow:hover{
-  background-color:#333;   
+  background-color:#333;
 transition: .3s background-color;
-    
+
 }
 
 .candidateName{
- text-align:center; 
-    font-weight:800; 
-    font-size:16px;  
-     padding-bottom: 30px; 
-       
+ text-align:center;
+    font-weight:800;
+    font-size:16px;
+     padding-bottom: 30px;
+
 }
 
 .candidateName img{
- padding-bottom: 5px;  
- padding-left: 15px; 
- padding-right: 15px; 
-    
-    
+ padding-bottom: 5px;
+ padding-left: 15px;
+ padding-right: 15px;
+
+
 }
 
 
@@ -201,14 +201,14 @@ transition: .3s background-color;
   border-top: #eee 3px solid;
   margin-left:42px;
   margin-top:-3px;
-  
+
 }
 
 .candidatewidth
 
 {
 	width:7%;
-	
+
 }
 
 
@@ -220,8 +220,8 @@ transition: .3s background-color;
     line-height: 1.42857;
     padding: 15px 10px 10px 10px;
     vertical-align: middle;
-      
-    
+
+
 }
 
 
@@ -232,13 +232,13 @@ transition: .3s background-color;
     line-height: 1.42857;
     padding:  25px 15px 20px 15px;
     vertical-align: top;
-    
+
 }
 
 .d1 .column-shadow, .d2 .column-shadow, .d3 .column-shadow, .d4 .column-shadow, .d5 .column-shadow, .r1 .column-shadow, .r2 .column-shadow, .r3 .column-shadow, .r4 .column-shadow, .r16 .column-shadow, .r5 .column-shadow, .r6 .column-shadow, .r7 .column-shadow, .r8 .column-shadow, .r9 .column-shadow, .r10 .column-shadow, .r11 .column-shadow, .r12 .column-shadow, .r13 .column-shadow, .r14 .column-shadow, .r15 .column-shadow{
-    
+
    padding: 0 8px;
-    
+
 }
 
 
@@ -270,17 +270,17 @@ transition: .3s background-color;
 .filterheader
 {
 	border-bottom:solid #000 1px;
-	margin-bottom:10px;	
+	margin-bottom:10px;
 }
 
 /* Fixed Header and Column */
 
-#parent {	
+#parent {
 	overflow-x:hidden;
 
-    
+
 }
-			
+
 #fixTable {
 	width: 2000px !important;
 }
@@ -289,22 +289,22 @@ transition: .3s background-color;
 
 	#parent {
 		height:1190px;
-       
-      
+
+
 	}
- 
+
 }
 
 
 
-/* Horizontal Scroll Buttons */			
+/* Horizontal Scroll Buttons */
 
 .hide-slider img {
     opacity: .3;
     filter: alpha(opacity=30);  /*For IE8 and earlier */
     margin-bottom: 15px;
     margin-left: 12px;
- 
+
 }
 
 .hide-slider img:hover {
@@ -334,7 +334,7 @@ transition: .3s opacity;
 position: fixed;
     top:0px;
 width:100%;
-    
+
 }
 
 #share {
@@ -359,7 +359,7 @@ width:100%;
     opacity: 1;
     padding-left: 30px;
     width: 60px;
-	
+
 }
 
 .circle {
@@ -376,7 +376,7 @@ width:100%;
     margin-top: 20px;
     text-align: center;
     width: 35px;
-	
+
 }
 
 .circle:hover {
@@ -420,39 +420,39 @@ margin-right:10px;
 }
 
 .navbar-nav > li > a:hover{
- opacity: .5;   
-    
+ opacity: .5;
+
 }
 
-    
-    
+
+
  /*styles for candidates that dropped out of the race*/
     .goneimg{
-     opacity: .5;  
-      
+     opacity: .5;
+
     }
-    
+
 .gonetext{
-    
- color:#999;   
+
+ color:#999;
 }
 
 .gonetext a{
-    
- color:#70a1cc;  
+
+ color:#70a1cc;
 }
 
 .candidateName p{
  font-size:15px;
     font-weight: 400;
-    
+
 }
 
 @media (min-width: 601px) {
 
   #smalltpc { display: none; }
   #tpcLogo { display: inline-block; }
- 
+
 }
 
 
@@ -460,22 +460,22 @@ margin-right:10px;
 @media (max-width: 600px) {
   #tpcLogo { display: none; }
   #smalltpc { display: inline-block; }
-    
+
 }
 
 /* GOP Checkbox Styles */
 
 
 label{
- margin-bottom: 18px;   
-    
+ margin-bottom: 18px;
+
 }
 
 
 .sub-check{
-	
+
 	padding-left: 20px;
-		
+
 	}
 
 input[type=checkbox].css-checkbox {
@@ -484,7 +484,7 @@ input[type=checkbox].css-checkbox {
 
 input[type=checkbox].css-checkbox + label.css-label, input[type=checkbox].css-checkbox + label.css-label.clr {
 	padding-left:23px;
-	height:11px; 
+	height:11px;
 	display:inline-block;
 	line-height:11px;
 	background-repeat:no-repeat;
@@ -492,13 +492,13 @@ input[type=checkbox].css-checkbox + label.css-label, input[type=checkbox].css-ch
 	font-size:13px;
 	vertical-align:middle;
 	cursor:pointer;
-      
+
 }
 
 input[type=checkbox].css-checkbox:checked + label.css-label, input[type=checkbox].css-checkbox + label.css-label.chk {
 	background-position: 0 -11px;
 }
-						
+
 label.css-label {
 	background-image:url(http://csscheckbox.com/checkboxes/u/csscheckbox_088a38531ba3d3789365e30797abb264.png);
 	-webkit-touch-callout: none;
@@ -508,15 +508,15 @@ label.css-label {
 	-ms-user-select: none;
 	user-select: none;
 }
-			
-/* Dem Checkbox Styles */		
+
+/* Dem Checkbox Styles */
 input[type=checkbox].css-checkbox2 {
 	position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
 }
 
 input[type=checkbox].css-checkbox2 + label.css-label2 {
 	padding-left:23px;
-	height:11px; 
+	height:11px;
 	display:inline-block;
 	line-height:11px;
 	background-repeat:no-repeat;
@@ -539,16 +539,16 @@ label.css-label2 {
 	-ms-user-select: none;
 	user-select: none;
 }
-			
-/*all dem checkbox style*/	
-			
+
+/*all dem checkbox style*/
+
 input[type=checkbox].css-checkbox3 {
 	position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
 }
 
 input[type=checkbox].css-checkbox3 + label.css-label3 {
 	padding-left:23px;
-	height:16px; 
+	height:16px;
 	display:inline-block;
 	line-height:16px;
 	background-repeat:no-repeat;
@@ -557,18 +557,18 @@ input[type=checkbox].css-checkbox3 + label.css-label3 {
     font-weight: 800;
 	vertical-align:middle;
 	cursor:pointer;
-    
+
 }
 
 input[type=checkbox].css-checkbox3:checked + label.css-label3 {
 	background-position: 0 -16px;
-    
+
 }
-						
+
 input[type=checkbox].css-checkbox3:indeterminate + label.css-label3 {
 	background-position: 0 0px;
 }
-						
+
 label.css-label3 {
 background-image:url(http://csscheckbox.com/checkboxes/u/csscheckbox_ffbc99bee13b636f450193ee7049c535.png);
 -webkit-touch-callout: none;
@@ -578,15 +578,15 @@ background-image:url(http://csscheckbox.com/checkboxes/u/csscheckbox_ffbc99bee13
 -ms-user-select: none;
 user-select: none;
 }
-			
-/*all rep checkbox style*/				
+
+/*all rep checkbox style*/
 input[type=checkbox].css-checkbox4 {
 position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
 }
 
 input[type=checkbox].css-checkbox4 + label.css-label4 {
 	padding-left:23px;
-	height:16px; 
+	height:16px;
 	display:inline-block;
 	line-height:16px;
 	background-repeat:no-repeat;
@@ -600,11 +600,11 @@ input[type=checkbox].css-checkbox4 + label.css-label4 {
 input[type=checkbox].css-checkbox4:checked + label.css-label4 {
 	background-position: 0 -16px;
 }
-						
+
 input[type=checkbox].css-checkbox4:indeterminate + label.css-label4 {
 	background-position: 0 0px;
 }
-						
+
 label.css-label4 {
 	background-image:url(http://csscheckbox.com/checkboxes/u/csscheckbox_38ac36f3f4c6acc3930a71108e50ea81.png);
 	-webkit-touch-callout: none;
@@ -614,7 +614,7 @@ label.css-label4 {
 	-ms-user-select: none;
 	user-select: none;
 			}
-			
+
 /*all ended campaign checkbox style*/
 input[type=checkbox].css-checkbox5 {
 position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
@@ -622,7 +622,7 @@ position:absolute; z-index:-1000; left:-1000px; overflow: hidden; clip: rect(0 0
 
 input[type=checkbox].css-checkbox5 + label.css-label5 {
 	padding-left:23px;
-	height:16px; 
+	height:16px;
 	display:inline-block;
 	line-height:16px;
 	background-repeat:no-repeat;
@@ -636,11 +636,11 @@ input[type=checkbox].css-checkbox5 + label.css-label5 {
 input[type=checkbox].css-checkbox5:checked + label.css-label5 {
 	background-position: 0 -16px;
 }
-						
+
 input[type=checkbox].css-checkbox5:indeterminate + label.css-label5 {
 	background-position: 0 0px;
 }
-						
+
 label.css-label5 {
 	background-image:url(http://csscheckbox.com/checkboxes/u/csscheckbox_b98235f8e3057a789fc5a1a9f8e44d20.png);
 	-webkit-touch-callout: none;
@@ -650,61 +650,61 @@ label.css-label5 {
 	-ms-user-select: none;
 	user-select: none;
 			}
-			
+
 @media (max-width: 1200px) {
-	
+
 	input[type=checkbox].css-checkbox4 + label.css-label4 {
-		font-size:13px; 
+		font-size:13px;
 	}
 
 	input[type=checkbox].css-checkbox3 + label.css-label3 {
-		font-size:13px; 
-	}	
-	
+		font-size:13px;
+	}
+
 	input[type=checkbox].css-checkbox3 + label.css-label5 {
-		font-size:13px; 
-	}							
-							
+		font-size:13px;
+	}
+
 }
 
 @media (max-width: 1137px) {
-	
+
 	.sub-check{
-	padding-left: 10px;	
+	padding-left: 10px;
 	}
-	
+
 	input[type=checkbox].css-checkbox + label.css-label {
-		font-size:11.7px; 
+		font-size:11.7px;
 	}
 
 	input[type=checkbox].css-checkbox2 + label.css-label2 {
-		font-size:11.7px; 
+		font-size:11.7px;
 	}
-	
+
 	input[type=checkbox].css-checkbox4 + label.css-label4 {
-		font-size:12px; 
+		font-size:12px;
 	}
 
 	input[type=checkbox].css-checkbox3 + label.css-label3 {
-		font-size:12px; 
+		font-size:12px;
 	}
-	
+
 	input[type=checkbox].css-checkbox5 + label.css-label5 {
-		font-size:12px; 
-		
+		font-size:12px;
+
 	}
-							
+
 }
 
 @media (max-width: 1213px) {
-	
+
 	input[type=checkbox].css-checkbox5 + label.css-label5 {
-		
+
 		padding-bottom: 30px;
 	}
-							
+
 }
-	
+
 
 
 /* Responsive Left Side */
@@ -731,7 +731,7 @@ label.css-label5 {
    		top: 0;
     	width: 200px;
       height: 550px;
-	
+
 	}
     .masthead h1{
  font-size: 35px;
@@ -744,7 +744,7 @@ label.css-label5 {
 font-size: 25px;
  width: 85%;
 }
-    
+
     .col-sm-10 {
     position: absolute;
     width: 100%;
@@ -768,50 +768,50 @@ font-size: 25px;
     color: #fff;
     transition: .3s background-color;
 }
-    
-    
+
+
 
 	input[type=checkbox].css-checkbox + label.css-label {
-		font-size:14px; 
+		font-size:14px;
 	}
 
 	input[type=checkbox].css-checkbox2 + label.css-label2 {
-		font-size:14px; 
+		font-size:14px;
 	}
-	
+
 	input[type=checkbox].css-checkbox4 + label.css-label4 {
-		font-size:14px; 
-       
+		font-size:14px;
+
 	}
 
 	input[type=checkbox].css-checkbox3 + label.css-label3 {
-		font-size:14px; 
-   
-          
+		font-size:14px;
+
+
 	}
-	
+
 	input[type=checkbox].css-checkbox5 + label.css-label5 {
-		font-size:14px; 
-   
-          
+		font-size:14px;
+
+
 	}
-		
-							
+
+
 .filter-side{
     display: none;
 }
-    
-    
 
-    
+
+
+
     .well {
     padding: 0;
 }
-   
 
 
-    
-/*DEMS ON MOBILE*/	
+
+
+/*DEMS ON MOBILE*/
 
 
 input[type=checkbox].css-checkbox2 + label.css-label2 {
@@ -828,19 +828,19 @@ input[type=checkbox].css-checkbox2 + label.css-label2 {
 
 }
 
-    
+
     input.css-checkbox3[type="checkbox"]:checked + label.css-label3 {
     height: 35px;
     background-position: 0 0px;
 }
-   
+
         input.css-checkbox2[type="checkbox"]:checked + label.css-label2 {
     border-bottom: 1px solid #999;
     height: 35px;
     width: 97%;
     background-position: 0 0px;
     }
-    
+
 
 label.css-label2,  label.css-label3{
     background-image:url('../images/d.png');
@@ -851,12 +851,12 @@ label.css-label2,  label.css-label3{
 	-ms-user-select: none;
 	user-select: none;
 }
-    
- 
-        
-/*REPUBS ON MOBILE*/	
 
-    
+
+
+/*REPUBS ON MOBILE*/
+
+
 input[type=checkbox].css-checkbox + label.css-label {
    background-position: 0 -36px;
     height: 35px;
@@ -871,19 +871,19 @@ input[type=checkbox].css-checkbox + label.css-label {
 
 }
 
-    
+
     input.css-checkbox4[type="checkbox"]:checked + label.css-label4 {
     height: 35px;
     background-position: 0 0px;
 }
-   
+
         input.css-checkbox[type="checkbox"]:checked + label.css-label {
     border-bottom: 1px solid #999;
     height: 35px;
     width: 97%;
     background-position: 0 0px;
     }
-    
+
 
 label.css-label4,  label.css-label{
     background-image:url('../images/r.png');
@@ -894,17 +894,17 @@ label.css-label4,  label.css-label{
 	-ms-user-select: none;
 	user-select: none;
 }
-    
+
 
 }
 
 @media (max-width: 767px) {
 
-  
+
   .masthead {
   background-image: none;
   height: 120px;}
-    
+
     .masthead h1{
         width:100%;
         font-size:22px;
@@ -913,11 +913,11 @@ label.css-label4,  label.css-label{
         width:100%;
         font-size:15px;
     }
-    
+
     .seventyfive {
-     margin-top: 25px;   
+     margin-top: 25px;
 }
-    
+
 
     .navbar-brand {
     float: left;
@@ -926,46 +926,46 @@ label.css-label4,  label.css-label{
     line-height: 20px;
     padding: 5px 5px 5px 15px;
 }
- 
+
   .topnav {
 	  display:none !important;
   }
-  
-  .hidesharenav {
+
+/*  .hidesharenav {
 	  display:none !important;
-  }
+  }*/
     .container {
   padding-right: 15px;
   padding-left: 15px;
 
 }
-  
+
 .candidateName img{
- width:80%;   
-  
- padding-left: 0px; 
- padding-right: 0px; 
-    
-    
+ width:80%;
+
+ padding-left: 0px;
+ padding-right: 0px;
+
+
 }
     .candidateName{
-     font-size:13px;   
+     font-size:13px;
     }
-    
+
     .hideRow {
-     font-size:25px;   
+     font-size:25px;
     }
-	
-	
+
+
 
 .borderTop{
  width: 70px;
   border-top: #eee 3px solid;
   margin-left:42px
-  
+
 }
 
- 
+
 }
 
 .rep-top
@@ -985,53 +985,53 @@ label.css-label4,  label.css-label{
   .mobilenav {
 	  display:none !important;
   }
-  
-  
- 
+
+
+
 }
 
 /*@media (min-width: 1023px) */
 
 @media (min-width: 1023px) {
-  
+
   .showfilter {
 	  display:none !important;
   }
-    
- 
+
+
 }
 
 @media (max-height: 768px) {
-  
+
   /*label{ margin-bottom: 10px;}*/
-  
+
   #parent { height:500px; }
-  
+
  .filter-side{
    padding-bottom: 0px;
     padding-top: 0px;
 }
 
 .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
-    
-    line-height: 1.0; 
-    
+
+    line-height: 1.0;
+
 }
 
  .rep-top
 {
   padding-top: 10px;
 
-}  
- 
+}
+
 }
 
 @media (max-width: 600px) and (min-width: 481px) {
-  
 
-  
+
+
   #parent { height:550px; }
-  
+
  .filter-side{
    padding-bottom: 0px;
     padding-top: 0px;
@@ -1043,17 +1043,17 @@ label.css-label4,  label.css-label{
 {
   padding-top: 10px;
 
-}  
- 
+}
+
 }
 
 
 @media (max-width: 768px) and (min-width: 601px) {
-  
-  
-  
+
+
+
   #parent { height:650px; }
-  
+
  .filter-side{
    padding-bottom: 0px;
     padding-top: 0px;
@@ -1065,23 +1065,23 @@ label.css-label4,  label.css-label{
 {
   padding-top: 10px;
 
-}  
- 
+}
+
 }
 
 
 @media (max-height: 980px) and (min-height: 900px) {
-  
+
   #parent { height:800px; }
- 
- 
+
+
 }
 
 @media (max-height: 480px) {
-  
+
   #parent { height:550px; }
- 
- 
+
+
 }
 
 
