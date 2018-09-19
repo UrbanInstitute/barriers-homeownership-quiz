@@ -84,7 +84,7 @@ function render(quiz_opts) {
     // .attr('class', 'quiz-title')
     .appendTo($title_slide);
   $('<p>')
-    .text("Cover Photo by Volodymyr Kyrylyuk/Shutterstock")
+    .text("Cover photo by Volodymyr Kyrylyuk/Shutterstock.")
     .attr("class", "image-credit")
     .appendTo($title_slide);
 
@@ -199,8 +199,8 @@ var $dummy = $("<div>")
       // answer dialogue
       if (correct) {
         opts = $.extend(opts, {
-          title: "Nice!",
-          text: "Well done" + (
+          title: "Nice",
+          text: "Well done!" + (
             question.correct.text ?
             ("<div class=\"correct-text\">" +
               question.correct.text +
@@ -214,7 +214,7 @@ var $dummy = $("<div>")
           text: (
             "Nope, not quite right!<br/><br/>" +
             "The correct answer was \"" +
-            question.answers[question.correct.index] + "\"." + (
+            question.answers[question.correct.index] + ".\"" + (
             question.correct.text ?
             ("<div class=\"correct-text\">" +
               question.correct.text +
@@ -301,7 +301,7 @@ var $dummy = $("<div>")
 
   var $links = $("<div>")
     .attr('class', 'results-social')
-    .html('<div id = "links-text">To find out more about downpayments and other barriers to homeownership, check out our Barriers to Accessing Housing <a href="https://www.urban.org/research/publication/barriers-accessing-homeownership">report</a> and our <a href="https://www.urban.org/policy-centers/housing-finance-policy-center/projects/access-and-affordability-interactive-map-and-research-3-barriers-homeownership">interactive map</a>.</div>')
+    .html('<div id = "links-text">To find out more about down payments and other barriers to homeownership, check out our <em>Barriers to Accessing Homeownership</em> <a href="https://www.urban.org/research/publication/barriers-accessing-homeownership">report</a> and our <a href="https://www.urban.org/policy-centers/housing-finance-policy-center/projects/access-and-affordability-interactive-map-and-research-3-barriers-homeownership">interactive map</a>.</div>')
     .appendTo($results_slide);
 
   var $social = $("<div>")
@@ -357,13 +357,13 @@ function resultsText(state) {
       text = "Awesome job, you got most of them right.";
       break;
     case (ratio >= 0.60):
-      text = "Pretty good, we'll say that's a pass.";
+      text = "Pretty good; we'll say that's a pass.";
       break;
     case (ratio >= 0.5):
       text = "Well, at least you got half of them right&hellip;";
       break;
     case (ratio < 0.5 && ratio !== 0):
-      text = "Looks like this was a tough one, better luck next time.";
+      text = "Looks like this was a tough one; better luck next time.";
       break;
     case (ratio === 0):
       text = "Yikes, none correct. Well, maybe it was rigged?";
